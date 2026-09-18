@@ -1,0 +1,10 @@
+mithejamanoharie@Mithejas-MacBook-Air Exercise03 % mpicc -o ex3 ex3.c && mpirun -np 4 ./ex3
+Root filled array with values 1 to 1000000
+Rank 2: local sum = 156250125000
+Rank 0: local sum = 31250125000
+Rank 1: local sum = 93750125000
+Rank 3: local sum = 218750125000
+
+[Gather] Total sum = 500000500000
+[Gather] Correct?  = YES
+[Gather] Time      = 0.006621 seconds
