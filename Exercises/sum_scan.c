@@ -49,6 +49,9 @@ int main(int argc, char **argv) {
         long long expected = (long long)N * (N + 1) / 2;
         printf("\n[Scan] Final prefix_sum on last rank = %lld\n", prefix_sum);
         printf("[Scan] Correct? = %s\n", prefix_sum == expected ? "YES" : "NO");
+
+        double end = MPI_Wtime();
+        printf("[Scan] Time      = %f seconds\n", end - start);
     }
 
     if (rank == 0) free(array);
