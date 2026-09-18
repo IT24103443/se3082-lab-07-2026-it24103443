@@ -1,1 +1,7 @@
 .DS_Store
+Exercises/program
+Exercises/sum_allreduce
+Exercises/sum_gather
+Exercises/sum_reduce
+Exercises/sum_scan
+Exercises/sum_scatter
